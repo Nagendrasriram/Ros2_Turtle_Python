@@ -1,20 +1,21 @@
 
 ---
 
-````markdown
 # 🤖 ROS2 Mobile Control Interface
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ROS2-Humble-blueviolet?logo=ros&logoColor=white" alt="ROS2">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/Mobile%20Control-Gyroscope%20%2B%20Buttons-orange" alt="Mobile Control">
-</p>
+**Control your TurtleSim from your mobile phone using Gyroscope and Touch Buttons!**  
+Real-time control via Flask and Socket.IO with ROS2 integration.
 
+---
 
+## 📋 About the Project
 
-> 📱 **Control your TurtleSim from your mobile phone using Gyroscope and Touch Buttons!**  
-> 🌐 Real-time control via Flask + Socket.IO with ROS2 bridge.
+This project enables mobile-based teleoperation of a ROS2 Turtle (like `turtlesim`) using your smartphone’s:
+- Gyroscope sensor (tilt-based control)
+- Touch buttons (up, down, left, right)
+
+It uses a Flask web server and WebSocket communication to send commands in real time to a ROS2 node.
+
 
 ---
 
