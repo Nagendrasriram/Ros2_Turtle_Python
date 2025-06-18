@@ -1,0 +1,3 @@
+[console_scripts]
+ros2_mobile_control = src.main:main
+
